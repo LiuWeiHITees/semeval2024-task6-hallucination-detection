@@ -14,13 +14,13 @@ Due to the lack of annotation data, it is difficult to incorporate task-oriented
 
 \begin{itemize}
 \item
-deberta: deberta-separately-for-each-task-train.py, deberta-loss-optimized-parameter-adjustment.py and deberta-loss-optimized-train.py.
+  deberta: deberta-separately-for-each-task-train.py, deberta-loss-optimized-parameter-adjustment.py and deberta-loss-optimized-train.py.
 \item
-sbert and unieval: sbert-and-unieval.ipynb
+  sbert and unieval: sbert-and-unieval.ipynb
 \item
-model aware feature augmentation: model-aware-feature-augmentation.ipynb
+  model aware feature augmentation: model-aware-feature-augmentation.ipynb
 \item
-fine-tuning LLM: fine-tuning-LLM
+  fine-tuning LLM: fine-tuning-LLM
 
 \end{itemize}
 
