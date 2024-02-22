@@ -11,18 +11,13 @@ Due to the lack of annotation data, it is difficult to incorporate task-oriented
 
 ## Main Results
 
+* deberta: deberta-separately-for-each-task-train.py, deberta-loss-optimized-parameter-adjustment.py and deberta-loss-optimized-train.py
 
-\begin{itemize}
-\item
-  deberta: deberta-separately-for-each-task-train.py, deberta-loss-optimized-parameter-adjustment.py and deberta-loss-optimized-train.py.
-\item
-  sbert and unieval: sbert-and-unieval.ipynb
-\item
-  model aware feature augmentation: model-aware-feature-augmentation.ipynb
-\item
-  fine-tuning LLM: fine-tuning-LLM
+* sbert and unieval: sbert-and-unieval.ipynb
 
-\end{itemize}
+* model aware feature augmentation: model-aware-feature-augmentation.ipynb
+
+* fine-tuning LLM: fine-tuning-LLM
 
 
 ![capture_20240222234101022](fig/result.bmp)
