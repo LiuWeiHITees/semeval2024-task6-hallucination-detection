@@ -1,4 +1,5 @@
 # semeval2024-task6-hallucination-detection
-Publicize our code in semeval-2024-task6 here.
 
-My code is still in the process of being organized, some of the comments need to be translated into English, I will upload all the code at the end of February.
+This paper describes our submission for SemEval-2024 Task 6: SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes, and we join both model-agnostic and model-aware tracks. We ensemble different methods, which significantly enhances the generalization capability. Our method's effectiveness is validated by our high rankings - 3rd in the model-agnostic track and 5th in the model-aware track.
+
+
