@@ -6,7 +6,7 @@ This paper describes our submission for SemEval-2024 Task 6: SHROOM, a Shared-ta
 ## LLM-based Data Construction
 Due to the lack of annotation data, it is difficult to incorporate task-oriented optimization for the pre-trained models. However, both tracks provide unannotated data with the form of [source, target, hypothesis]. Therefore, we propose to derive hallucination annotation by ourselves, leveraging the intelligence ability of proprietary LLMs, such as GPT-4. Based on the different tasks, we provide the paired text to the LLM, and design the prompt template to detect whether there is hallucination in the hypothesis. The specific dataset construction process is shown in Figure 1.
 
-\begin{table*}[]
+\begin{table}[]
 \resizebox{1.0\textwidth}{!}{
   \centering
     \begin{tabular}{lllrrrr}
@@ -30,4 +30,4 @@ Due to the lack of annotation data, it is difficult to incorporate task-oriented
     \end{tabular}}
   \caption{Experimental results. \textsuperscript{†}Please note that there is a slight discrepancy with the results submitted in the leaderboard due to the inability to calculate the rho for the PG task, as the hallucination probability for 8 data points was null. For the purpose of this calculation, null probabilities were treated as zero, which may have a minor impact on the rho results.}
   \label{tab:result}
-\end{table*}%
+\end{table}
