@@ -1,6 +1,6 @@
 # semeval2024-task6-hallucination-detection
 
-This paper describes our submission for SemEval-2024 Task 6: SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes, and we join both model-agnostic and model-aware tracks. We ensemble different methods, which significantly enhances the generalization capability. Our method's effectiveness is validated by our high rankings - 3rd in the model-agnostic track and 5th in the model-aware track.
+This paper describes our submission for SemEval-2024 Task 6: SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes. We propose four groups of methods for hallucination detection: 1) Entailment Recognition; 2) Similarity Search; 3) Factuality Verification; 4) Confidence Estimation. The four methods rely on either the semantic relationship between the hypothesis and its source (target) or on the model-aware features during decoding. We participated in both the model-agnostic and model-aware tracks. Our method's effectiveness is validated by our high rankings 3rd in the model-agnostic track and 5th in the model-aware track.
 
 
 ## LLM-based Data Construction
@@ -11,13 +11,15 @@ Due to the lack of annotation data, it is difficult to incorporate task-oriented
 
 ## Main Results
 
+![capture_202402222341010221](fig/model.bmp)
+
+* fine-tuning LLM: fine-tuning-LLM
+
 * deberta: deberta-separately-for-each-task-train.py, deberta-loss-optimized-parameter-adjustment.py and deberta-loss-optimized-train.py
 
 * sbert and unieval: sbert-and-unieval.ipynb
 
 * model aware feature augmentation: model-aware-feature-augmentation.ipynb
-
-* fine-tuning LLM: fine-tuning-LLM
 
 
 ![capture_20240222234101022](fig/result.bmp)
